@@ -1,0 +1,97 @@
+.first{
+    background: url("../images/firstbg.jpg") center center no-repeat;
+}
+.myId p{
+    padding-top:50px;
+    font-size: 100px;
+    color:red;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    text-shadow:0px -2px 10px #Fff, 0px -10px 41px #F3D02C,0px -46px 91px red;
+
+}
+.my{
+    float: left;
+    padding-left: 50%;
+    margin-left: -200px;
+}
+.myPic{
+    width: 100px;
+    height: 100px;
+    /*border: 1px solid #000;*/
+    margin:50px auto;
+    position: relative;
+    float: left;
+}
+
+.myPic>div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*border: 1px solid #000;*/
+    border-radius: 50%;
+    transition:all 2s;
+    backface-visibility: hidden;
+}
+
+
+.myPic .box1{
+    background:url('../images/bg.png') left 0 no-repeat;
+    transform:rotateY(-180deg);
+}
+
+
+
+.myPic .box2{
+    background:url(../images/bg.png) right 0 no-repeat;
+    /*left:300px;*/
+}
+
+
+.myPic:hover .box1{
+    transform:rotateY(0deg);
+}
+
+.myPic:hover .box2{
+    transform:rotateY(180deg);
+}
+.need{
+    clear: both;
+}
+.need p{
+    padding-top: 50px;
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+}
+.myName p{
+    padding-top: 50px;
+    font-size: 30px;
+    color: #000;
+    padding-left: 50%;
+    margin-left: -150px;
+
+}
+
+
+/*第二屏*/
+.second {
+    margin: 0;
+    padding: 0;
+    background: #080e24 url(../images/bg1.jpg) repeat;
+}
+.sec {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+

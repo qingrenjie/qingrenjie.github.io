@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*一言不合就隐藏掉*/
+.section{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
